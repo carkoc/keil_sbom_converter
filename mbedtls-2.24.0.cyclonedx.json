@@ -1,0 +1,28 @@
+{
+  "$schema": "https://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:55c9c0f7-886b-4085-b4a0-8c6ee7c38f75",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-09-12T19:56:00Z",
+    "tools": [
+      {
+        "vendor": "OpenAI",
+        "name": "ChatGPT",
+        "version": "1.0"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:github/Mbed-TLS/mbedtls@2.24.0",
+      "group": "Mbed-TLS",
+      "name": "mbedtls",
+      "version": "2.24.0",
+      "purl": "pkg:github/Mbed-TLS/mbedtls@2.24.0",
+      "cpe": "cpe:2.3:a:arm:mbed_tls:2.24.0:*:*:*:*:*:*:*"
+    }
+  ]
+}
